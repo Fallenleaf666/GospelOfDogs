@@ -32,6 +32,9 @@ import com.google.firebase.iid.InstanceIdResult;
 import com.leaf.godproject.Fragments.*;
 import com.leaf.godproject.Notification.Token;
 //test2
+//test4
+//test5
+//test8
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView email,uid;
     FirebaseAuth mFirebaseAuth;
