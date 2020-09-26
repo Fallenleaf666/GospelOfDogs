@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dog_type_small">
+        <item>巴哥</item>
+        <item>柴犬</item>
+        <item>博美犬</item>
+        <item>比熊犬</item>
+        <item>約克夏</item>
+        <item>日本狆</item>
+        <item>西施犬</item>
+        <item>雪納瑞</item>
+        <item>蝴蝶犬</item>
+        <item>尖嘴犬</item>
+        <item>米格魯</item>
+        <item>貴賓犬</item>
+        <item>吉娃娃</item>
+        <item>紅貴賓</item>
+        <item>絲毛梗</item>
+        <item>北京犬</item>
+        <item>拉薩犬</item>
+        <item>威爾斯梗</item>
+        <item>瑪爾濟斯</item>
+        <item>波士頓梗</item>
+        <item>傑克羅素梗</item>
+        <item>丹第丁蒙梗</item>
+        <item>中國冠毛犬</item>
+        <item>長毛臘腸犬</item>
+        <item>西部高地白梗</item>
+        <item>查理王長毛獵犬</item>
+        <item>迷你杜賓</item>
+    </string-array>
+
+    <string-array name="dog_type_mid">
+        <item>牛頭梗</item>
+        <item>沙皮犬</item>
+        <item>巴吉度</item>
+        <item>鬆獅犬</item>
+        <item>柯基犬</item>
+        <item>惠比特犬</item>
+        <item>貝林登梗</item>
+        <item>蘇格蘭梗</item>
+        <item>英國鬥牛</item>
+        <item>犬法國鬥牛</item>
+        <item>犬英國可卡獵犬</item>
+        <item>美國可卡獵犬</item>
+        <item>喜樂蒂牧羊犬</item>
+    </string-array>
+
+    <string-array name="dog_type_big">
+        <item>杜賓犬</item>
+        <item>挪威納</item>
+        <item>拳師犬</item>
+        <item>威瑪犬</item>
+        <item>秋田犬</item>
+        <item>德國狼犬</item>
+        <item>馬士提夫</item>
+        <item>拉不拉多</item>
+        <item>黃金獵犬</item>
+        <item>大麥町犬</item>
+        <item>薩摩耶犬</item>
+        <item>尋血獵犬</item>
+        <item>可麗牧羊犬</item>
+        <item>阿富汗獵犬</item>
+        <item>蘇俄牧羊犬</item>
+        <item>愛爾蘭雪達犬</item>
+        <item>西伯利亞哈士奇</item>
+        <item>阿拉斯加雪橇犬</item>
+        <item>英國古代牧羊犬</item>
+    </string-array>
+
+    <string-array name="dog_type_sbig">
+        <item>大丹犬</item>
+        <item>土佐犬</item>
+        <item>伯恩山犬</item>
+        <item>西藏獒犬</item>
+        <item>大白熊犬</item>
+        <item>聖伯納犬</item>
+        <item>紐芬蘭犬</item>
+        <item>高加索山犬</item>
+    </string-array>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6e552f</color>
+    <color name="colorPrimaryDark">#313534</color>
+    <color name="colorAccent">#777768</color>
+    <color name="colorgray">#616B6B6B</color>
+
+    <color name="fab_pressed">#546e7a</color>
+    <color name="fab_normal">#78909c</color>
+    <color name="alarm_Primary">#37474f</color>
+    <color name="abc_secondary_text_material_dark">#37474f</color>
+    <color name="abc_primary_text_material_dark">#37474f</color>
+    <color name="dogdictionary1">#46F3EFCF</color>
+    <color name="dogdictionary2">#46E6E2C4</color>
+    <color name="dogdictionarytitle">#A9EEEEEE</color>
+    <color name="dogdictionaryback">#E6FFFBDB</color>
+    <color name="dogdictionarycontent">#DDFFF2C0</color>
+    <color name="titlecolor">#E2FFFFFA</color>
+    <color name="alarm_Primary2">#E9443025</color>
+    <color name="tea">#E2979724</color>
+    <color name="tea2">#86C0C033</color>
+    <color name="toolroomback">#F7E7D5AD</color>
+    <color name="postback1">#F8F8F8</color>
+    <color name="text1">#6e552f</color>
+    <color name="hinttitlecolor">#B0F0F0ED</color>
+    <color name="colorPrimaryDark2">#C8313534</color>
+</resources>

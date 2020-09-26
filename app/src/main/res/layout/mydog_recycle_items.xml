@@ -1,0 +1,118 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="6dp"
+    app:cardBackgroundColor="#4DE7E7D4"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="1dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dog_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/dog_head"
+            app:civ_border_color="#72AFAFAF"
+            app:civ_border_width="1dp"
+            app:civ_circle_background_color="#F0E273"
+            app:srcCompat="@drawable/dog_head" />
+
+        <ImageView
+            android:id="@+id/dog_image2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ddog"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ddog" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/recycle_dogname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textSize="28dp"
+                    tools:text="名字" />
+
+                <ImageView
+                    android:id="@+id/dogsex"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    app:srcCompat="@drawable/nomale" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/recycle_dogtype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textSize="15dp"
+                tools:text="品種" />
+
+            <TextView
+                android:id="@+id/recycle_doginfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:visibility="gone"
+                tools:text="性別 生日" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/editbt"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginEnd="20dp"
+
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_edtpen"
+            app:srcCompat="@drawable/ic_edtpen" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

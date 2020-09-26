@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.leaf.godproject">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoAppTheme"
+        tools:replace="android:icon,android:theme"
+        >
+        
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.leaf.godproject.FindvetActivity"
+            android:label="尋找診所"></activity>
+        <activity android:name="com.leaf.godproject.PostDetailActivity" />
+        <activity android:name="com.leaf.godproject.DogProfile" />
+        <activity android:name="com.leaf.godproject.MultiImageSelectorActivity" />
+        <activity android:name="com.leaf.godproject.EnrollActivity" />
+        <activity android:name="com.leaf.godproject.LoginActivity"
+            >
+
+        </activity>
+        <activity android:name="com.leaf.godproject.MainActivity" />
+        <activity android:name="com.leaf.godproject.Petdiary" />
+        <activity android:name="com.leaf.godproject.PetdiaryEditMypet" />
+        <activity android:name="com.leaf.godproject.PostActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name="com.leaf.godproject.CommentsActivity" />
+        <activity android:name="com.leaf.godproject.EditProfileActivity" />
+        <activity android:name="com.leaf.godproject.FollowersActivity" />
+        <activity android:name="com.leaf.godproject.OptionsActivity" />
+        <activity android:name="com.leaf.godproject.StoryActivity" />
+        <activity android:name="com.leaf.godproject.AddStoryActivity" />
+        <activity android:name="com.leaf.godproject.AddMypet" />
+        <activity android:name="com.leaf.godproject.EditMypet" />
+        <activity android:name="com.leaf.godproject.ForgetpwActivity" />
+        <activity android:name="com.leaf.godproject.DictionaryActivity" />
+        <activity android:name="com.leaf.godproject.dictionary.DictionaryDetailPage" />
+        <activity android:name="com.leaf.godproject.AlarmActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name="com.leaf.godproject.alarm.ReminderAddActivity" />
+        <activity android:name="com.leaf.godproject.alarm.ReminderEditActivity" />
+        <activity android:name="com.leaf.godproject.findvet.MapsActivityCurrentPlace" />
+        <activity android:name="com.leaf.godproject.ProfileActivity" />
+        <activity android:name="com.leaf.godproject.WelcomeActivity"
+            android:theme="@style/AppTheme.Splash">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name="com.leaf.godproject.findvet.FindvetActivity4" />
+        <activity android:name="com.leaf.godproject.findvet.MainActivity3"
+            android:theme="@style/NoAppTheme6"
+            />
+        <activity android:name="com.leaf.godproject.SettingActivity" />
+
+        <receiver android:name="com.leaf.godproject.alarm.AlarmReceiver" />
+        <receiver android:name="com.leaf.godproject.alarm.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.leaf.godproject.Notification.MyFirebaseService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#6e552f</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorgray</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/alarm_Primary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar6">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.NoActionBar2">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorgray</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/alarm_Primary</item>
+    </style>
+
+
+    <style name="NoAppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#78552B</item>
+        <item name="colorPrimary">#6e552f</item>
+        <item name="colorAccent">#E2FFFFFA</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/alarm_Primary2</item>
+    </style>
+
+
+    <style name="NoAppTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/alarm_Primary</item>
+        <item name="colorPrimaryDark">#6e552f</item>
+        <item name="titleTextColor">#DFDFDF</item>
+        <item name="colorAccent">#E2979724</item>
+    </style>
+
+
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/alarm_Primary</item>
+        <item name="colorPrimaryDark">#6e552f</item>
+        <item name="titleTextColor">#EBFFFFF0</item>
+        <item name="colorAccent">#E2979724</item>
+    </style>
+
+
+    <style name="NoAppTheme6" parent="AppTheme.NoActionBar6">
+        <item name="colorPrimary">#6e552f</item>
+        <item name="colorPrimaryDark">#F2FFFFFA</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">#F2FFFFFA</item>
+        <item name="actionMenuTextColor">#F2FFFFFA</item>
+    </style>
+
+
+</resources>

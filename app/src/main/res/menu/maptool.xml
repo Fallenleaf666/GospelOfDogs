@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/research_clinic"
+        android:icon="@drawable/ic_search"
+        android:title="action_research_clinic"
+        android:tooltipText="action_research_clinic"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:iconTint="@color/titlecolor"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
