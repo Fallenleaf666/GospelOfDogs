@@ -56,6 +56,8 @@ Gospel Of Dogs 為大學專題時製作的Project，在這邊做個紀錄
 - ****AndroidStudio****
 
 ---
+![image](https://i.imgur.com/ccgmCtX.gif =220x)
+
 ## 功能介紹及操作畫面
 | 功能 | 介紹 | 操作畫面 |其他|
 | -------- | -------- | -------- |--------|
