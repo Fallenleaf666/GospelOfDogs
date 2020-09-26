@@ -31,8 +31,7 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.InstanceIdResult;
 import com.leaf.godproject.Fragments.*;
 import com.leaf.godproject.Notification.Token;
-//test2
-//test9
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     TextView email,uid;
     FirebaseAuth mFirebaseAuth;
@@ -124,11 +123,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
 //                    new PostDetailFragment()).commit();
 //        }
-//        還沒測試過
+
         if (intent != null && intent.getString("publisherid")!=null){
             String publisher = intent.getString("publisherid");
 
-//            看不懂
             SharedPreferences.Editor editor = getSharedPreferences("PREFS", MODE_PRIVATE).edit();
             editor.putString("profileid", publisher);
             editor.apply();
