@@ -41,11 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public  static final int FUNC_LOGIN=1;
     private FirebaseUser user;
     private GoogleSignInAccount acct;
-
     private long firstTime=0;
-
     FirebaseUser firebaseUser;
-
     Fragment selectedfragment = null;
     BottomNavigationView bottom_navigation;
 
