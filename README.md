@@ -1,9 +1,3 @@
----
-title: Gospel Of Dogs
-# tags: Templates, Talk
-# description: View the slide with "Slide Mode".
----
-
 # Gospel Of Dogs 
 
 [![hackmd-github-sync-badge](https://hackmd.io/cbRQrP0UQ0OlV0fU5v6WmA/badge)](https://hackmd.io/cbRQrP0UQ0OlV0fU5v6WmA)
@@ -22,7 +16,7 @@ Gospel Of Dogs 為大學專題時製作的Project，在這邊做個紀錄
 
 
 
-| 登入介面 | 日誌動態牆 |附近診所|個人介面|
+| | |||
 | -------- | -------- |-------- |-------- |
 |![image](https://i.imgur.com/aVH1ykv.png) |![image](https://i.imgur.com/gJ9fwSy.png)|||
 
