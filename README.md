@@ -7,7 +7,7 @@
 
 ---
 
-Gospel Of Dogs 為大學專題時製作的Project，在這邊做個紀錄
+Gospel Of Dogs 為大學專題時製作的Project
 
 
 ---
@@ -15,9 +15,6 @@ Gospel Of Dogs 為大學專題時製作的Project，在這邊做個紀錄
 ## app畫面預覽
 
 
-
-| | |||
-| -------- | -------- |-------- |-------- |
 |![image](https://i.imgur.com/aVH1ykv.png) |![image](https://i.imgur.com/gJ9fwSy.png)|||
 
 
