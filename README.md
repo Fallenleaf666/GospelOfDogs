@@ -14,8 +14,7 @@ Gospel Of Dogs 為大學專題時製作的Project
 
 ## app畫面預覽
 
-
-|![image](https://i.imgur.com/aVH1ykv.png) |![image](https://i.imgur.com/gJ9fwSy.png)|||
+|<img src="https://i.imgur.com/aVH1ykv.png" width="200"/> |<img src="https://i.imgur.com/gJ9fwSy.png" width="200"/>|||
 
 
 <!-- *****![](https://i.imgur.com/ij69tPh.png)
